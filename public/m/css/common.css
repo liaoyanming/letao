@@ -1,0 +1,88 @@
+body{
+    background: #fff;
+}
+ul{
+    list-style: none;
+    padding: 0;
+ }  
+.lt-container{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	
+}
+/*顶部通栏*/
+.lt-container .lt-header{
+	width: 100%;
+	height: 45px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: #006699;
+	line-height: 45px;
+}
+.lt-container .lt-header h3{
+	font-weight: normal;
+	font-size: 16px;
+	margin:0;
+	line-height: 45px;
+	color: #fff;
+    text-align: center;
+}
+.lt-container .lt-header .left{
+	position: absolute;
+	top: 0;
+	right: left;
+	width: 45px;
+	height: 45px;
+	color: #fff;
+    text-align: center;
+}
+.lt-container .lt-header .right{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 45px;
+	height: 45px;
+	color: #fff;
+    text-align: center;
+}
+/*主要内容部分*/
+.lt-container .lt-content{
+	width: 100%;
+	height: 100%;
+	padding: 45px 0 55px 0;
+
+}
+.lt-container .lt-content .lt_wrapper{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+/*底部*/
+.lt-container .lt-footer{
+	width: 100%;
+	height: 55px;
+	position: absolute;
+	left: 0;
+	bottom:0;
+	background: #006699;
+}
+.lt-container .lt-footer a{
+	width: 25%;
+	height: 55px;
+	float: left;
+	text-align: center;
+	color: #fff;
+	padding-top: 10px;
+}
+.lt-container .lt-footer a.now{
+	color: orange;
+}
+.lt-container .lt-footer a span{
+	padding-top: 6px;
+	display: block;
+	font-size: 12px;
+}

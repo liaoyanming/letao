@@ -1,0 +1,89 @@
+/*search 整个搜索模块的样式*/
+/*搜索框模块*/
+.lt-search{
+	width: 100%;
+	padding: 10px;
+	position: relative;
+}
+.lt-search form input{
+	width: 100%;
+	height: 30px;
+	border:1px solid #006699;
+	line-height: 28px;
+	background: #fff;
+	padding-left: 10px;
+	text-align: left;
+	font-size: 12px;
+}
+.lt-search a{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	width: 60px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	color: #fff;
+	font-size: 14px;
+	background: #006699;
+	border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+/*排序模块*/
+.lt-order{
+	width: 100%;
+	background: #efeff4;
+	height:30px;
+}
+.lt-order a{
+	width: 25%;
+	height: 30px;
+	float: left;
+	line-height: 30px;
+	text-align: center;
+	font-size:12px;
+	color: #333;
+}
+.lt-order a.now{
+    color: orange;
+}
+/*商品*/
+.lt-product{
+	width: 100%;
+	padding:0 10px;
+}
+.lt-product .pro-item{
+	width: 48%;
+	float: left;
+	margin-top: 10px;
+}
+.lt-product .pro-item:nth-child(2n){
+	margin-left: 4%;
+}
+.lt-product .pro-item a{
+	display: block;
+	width: 100%;
+	text-align: center;
+	box-shadow: 0 0 3px #ddd;
+	padding:10px 0;
+	min-height: 200px;
+}
+.lt-product .pro-item a img{
+	display: block;
+	width: 100%;
+}
+.ct_product .pro_item .pro_item_box p:first-of-type{
+    padding: 0 10px;
+}
+.lt-product .pro-item a p .nowPrice{
+	font-size: 12px;
+	color: red;
+}
+.lt-product .pro-item a p .oldPrice{
+	font-size: 12px;
+	color: #ccc;
+}
+.lt-product .pro-item a button{
+	background: #006699;
+	color: #fff;
+}
